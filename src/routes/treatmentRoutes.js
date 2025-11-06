@@ -6,6 +6,7 @@ const treatmentController = require('../controllers/treatmentController');
 router.get('/list', treatmentController.list);
 
 // Lista tratamentos por tipo
-router.get('/type/:type', treatmentController.listByType);
+router.get('/type/:type', treatmentController.getByType);
+
 
 module.exports = router;

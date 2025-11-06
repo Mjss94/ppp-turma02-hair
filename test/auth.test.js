@@ -2,10 +2,9 @@ const { expect } = require("chai");
 const request = require("./helpers/api");
 
 describe("Auth API Tests", () => {
-  const timestamp = Date.now();
   const user = {
-    username: `testuser${timestamp}`,
-    password: "Senha123!",
+    username: "Maria",
+    password: "123456",
     hairType: "oleoso" // ou outro tipo aceito pela sua API
   };
 
