@@ -68,3 +68,26 @@ API Rest para acompanhamento de cronograma capilar.
 ## Testes Automatizados
 
 Os testes automatizados estão localizados na pasta `test/` e utilizam Mocha, Chai e Mochawesome para geração de relatórios em HTML. Para rodar os testes e visualizar o relatório, siga as instruções acima.
+
+### Estrutura dos testes
+
+- `test/auth.test.js`: Testa o registro e login de usuários, incluindo a obtenção do token JWT.
+- `test/treatments.test.js`: Testa os endpoints de listagem de tratamentos e filtragem por tipo.
+- `test/logs.test.js`: Testa o registro de logs de lavagem e a listagem dos logs do usuário autenticado.
+- `test/helpers/api.js`: Helper que configura o Chai HTTP apontando para a API local, facilitando as requisições nos testes.
+
+#### Exemplo de uso nos testes
+
+```js
+// Exemplo de teste em test/auth.test.js
+it("POST /users/register → deve registrar um usuário", async () => {
+   const res = await request
+      .post("/users/register")
+      .set("Content-Type", "application/json")
+      .send({ username: "Maria", password: "123456", hairType: "4a" });
+   expect(res.status).to.be.oneOf([200, 201]);
+   expect(res.body).to.have.property("username", "Maria");
+});
+```
+
+Consulte cada arquivo em `test/` para mais exemplos e detalhes.
