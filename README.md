@@ -31,11 +31,24 @@ API Rest para acompanhamento de cronograma capilar.
    ```bash
    npm install
    ```
-2. Inicie o servidor:
+
+2. Instale o mochawesome para relatórios de testes em HTML:
+   ```bash
+   npm install --save-dev mochawesome
+   ```
+
+3. Para rodar os testes automatizados e gerar o relatório HTML:
+   ```bash
+   npx mocha --reporter mochawesome
+   ```
+   O relatório será gerado na pasta `mochawesome-report/mochawesome.html`. Abra esse arquivo no navegador para visualizar os resultados dos testes de forma gráfica.
+
+4. Inicie o servidor:
    ```bash
    npm start
    ```
-3. Acesse a documentação Swagger em [http://localhost:3000/docs](http://localhost:3000/docs)
+
+5. Acesse a documentação Swagger em [http://localhost:3000/docs](http://localhost:3000/docs)
 
 ## Estrutura do Projeto
 - `src/routes` — Rotas da API
@@ -45,6 +58,13 @@ API Rest para acompanhamento de cronograma capilar.
 - `src/middleware` — Middleware de autenticação
 - `resources/swagger.json` — Documentação Swagger
 
+- `test/` — Testes automatizados da API (Mocha + Chai)
+- `test/helpers/` — Arquivos utilitários para os testes
+
 ## Observações
 - Todos os dados são armazenados em memória.
 - Para acessar endpoints protegidos, inclua o token JWT no header `Authorization: Bearer <token>`.
+
+## Testes Automatizados
+
+Os testes automatizados estão localizados na pasta `test/` e utilizam Mocha, Chai e Mochawesome para geração de relatórios em HTML. Para rodar os testes e visualizar o relatório, siga as instruções acima.
