@@ -108,8 +108,8 @@ it("POST /users/register → deve registrar um usuário", async () => {
  expect(res.body).to.have.property("username", "Maria");
 });
 
-
-### 📋 Tecnologias Utilizadas
+```
+### 📋 **Tecnologias Utilizadas**
 
 - `Node.js`
 
