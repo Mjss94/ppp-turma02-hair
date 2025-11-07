@@ -52,6 +52,7 @@ mochawesome-report/mochawesome.html
 npm start
 
 5. 🌐 Acesse a documentação Swagger:
+ ```bash
 http://localhost:3000/docs
 
 ---
