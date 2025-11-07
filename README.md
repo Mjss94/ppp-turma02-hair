@@ -37,10 +37,10 @@ API Rest para acompanhamento de cronograma capilar.
    npm install --save-dev mochawesome
    
 3. 🧰 Execute os testes automatizados e gere o relatório HTML:
-    ```bash
+   ```bash
    npx mocha --reporter mochawesome
 
-📄 O relatório será gerado em:
+## 📄 O relatório será gerado em:
 
 mochawesome-report/mochawesome.html
 
@@ -53,13 +53,13 @@ Para iniciar o servidor de desenvolvimento, utilize o seguinte comando:
 ```bash
 npm start
 
-### 5. 🌐 Acesse a documentação Swagger:
+## 5. 🌐 Acesse a documentação Swagger:
 
 http://localhost:3000/docs
 
 ---
 
-## 🗂️ Estrutura do Projeto
+### 🗂️ Estrutura do Projeto
 
 src/
  ├─ routes/          → Rotas da API
