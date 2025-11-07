@@ -57,6 +57,7 @@ npm start
 
 http://localhost:3000/docs
 
+---
 
 ## 🗂️ Estrutura do Projeto
 
@@ -110,15 +111,15 @@ it("POST /users/register → deve registrar um usuário", async () => {
 
 ### 📋 Tecnologias Utilizadas
 
-- Node.js
+- `Node.js`
 
-- Express
+- `Express`
 
-- JWT (Json Web Token)
+- `JWT (Json Web Token)`
 
-- Swagger UI
+- `Swagger UI`
 
-- Mocha / Chai / Mochawesome
+- `Mocha / Chai / Mochawesome`
 
-# 📌 [Acesse a Wiki da API Cronograma Capilar](https://github.com/Mjss94/ppp-turma02-hair/wiki/%F0%9F%93%8C-API-Cronograma-Capilar)
+## 📌 [Acesse a Wiki da API Cronograma Capilar](https://github.com/Mjss94/ppp-turma02-hair/wiki/%F0%9F%93%8C-API-Cronograma-Capilar)
 
