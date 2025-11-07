@@ -34,20 +34,21 @@ API Rest para acompanhamento de cronograma capilar.
    npm install
    
 2. 🧪 Instale o Mochawesome para relatórios de testes em HTML:
-
+   ```bash
    npm install --save-dev mochawesome
    
 3. 🧰 Execute os testes automatizados e gere o relatório HTML:
-
+    ```bash
    npx mocha --reporter mochawesome
 
 📄 O relatório será gerado em:
 
 mochawesome-report/mochawesome.html
+
 👉 Abra esse arquivo no navegador para visualizar os resultados de forma gráfica.
 
 4. ▶️ Inicie o servidor
-
+ ```bash
 npm start
 
 5. 🌐 Acesse a documentação Swagger:
