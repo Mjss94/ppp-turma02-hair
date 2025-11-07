@@ -41,7 +41,7 @@ O objetivo dos testes é garantir que a API Cronograma Capilar funcione conforme
 - Swagger UI (testes manuais)
 - Postman (testes manuais)
 
-## 7. Bugs Encontrados
+## 7. Bugs Encontrados na API
 - Validação de Dados em Logs de Lavagem 
 [Ver Issue no GitHub](https://github.com/Mjss94/ppp-turma02-hair/issues/1)
 
