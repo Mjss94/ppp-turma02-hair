@@ -59,7 +59,6 @@ npm start
 
 http://localhost:3000/docs
 
-```
 
 ## 🗂️ **Estrutura do Projeto**
 
