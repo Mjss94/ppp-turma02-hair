@@ -40,20 +40,20 @@ API Rest para acompanhamento de cronograma capilar.
    ```bash
    npx mocha --reporter mochawesome
 
-## 📄 O relatório será gerado em:
+### 📄 O relatório será gerado em:
 
 mochawesome-report/mochawesome.html
 
 👉 Abra esse arquivo no navegador para visualizar os resultados de forma gráfica.
 
-## 4. ▶️ Como Iniciar o Servidor
+### 4. ▶️ Como Iniciar o Servidor
 
 Para iniciar o servidor de desenvolvimento, utilize o seguinte comando:
 
 ```bash
 npm start
 
-## 5. 🌐 Acesse a documentação Swagger:
+### 5. 🌐 Acesse a documentação Swagger:
 
 http://localhost:3000/docs
 
