@@ -26,7 +26,7 @@ API Rest para acompanhamento de cronograma capilar.
 - `POST /logs/add` — Adicionar log de lavagem (requer autenticação)  
 - `GET /logs/list` — Listar logs do usuário (requer autenticação)  
 
-## ⚡ Como usar
+## ⚡ **Como usar**
 
 1. 📦 **Instale as dependências**  
    ```bash
@@ -53,13 +53,13 @@ Para iniciar o servidor de desenvolvimento, utilize o seguinte comando:
 ```bash
 npm start
 
-## 5. 🌐 Acesse a documentação Swagger:
+## 5. **🌐 Acesse a documentação Swagger:**
 
 http://localhost:3000/docs
 
----
+```
 
-## 🗂️ Estrutura do Projeto
+## 🗂️ **Estrutura do Projeto**
 
 src/
  ├─ routes/          → Rotas da API
