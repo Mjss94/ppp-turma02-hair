@@ -106,4 +106,14 @@ it("POST /users/register → deve registrar um usuário", async () => {
 });
 
 
+### 📋 Tecnologias Utilizadas
 
+- Node.js
+
+- Express
+
+- JWT (Json Web Token)
+
+- Swagger UI
+
+- Mocha / Chai / Mochawesome
