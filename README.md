@@ -76,6 +76,8 @@ test/
  ├─ treatments.test.js → Testes de tratamentos
  └─ logs.test.js     → Testes de logs
 
+```
+
 ## 🔒 Observações  
 
 - 💾 Todos os dados são armazenados **em memória**.  
