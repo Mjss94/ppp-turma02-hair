@@ -124,7 +124,6 @@ it("POST /users/register → deve registrar um usuário", async () => {
 
 - Mocha / Chai / Mochawesome
 
-```
 
 ## **Documentos Adicionais** 
 
