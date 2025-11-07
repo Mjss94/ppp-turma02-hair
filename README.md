@@ -61,7 +61,7 @@ http://localhost:3000/docs
 
 
 ## 🗂️ **Estrutura do Projeto**
-
+```
 src/
  ├─ routes/          → Rotas da API
  ├─ controllers/     → Lógica dos endpoints
