@@ -1,4 +1,3 @@
-# 📌 [Acesse a Wiki da API Cronograma Capilar](https://github.com/Mjss94/ppp-turma02-hair/wiki/%F0%9F%93%8C-API-Cronograma-Capilar)
 
 # 💇‍♀️ API Cronograma Capilar
 
@@ -47,12 +46,15 @@ mochawesome-report/mochawesome.html
 
 👉 Abra esse arquivo no navegador para visualizar os resultados de forma gráfica.
 
-4. ▶️ Inicie o servidor
- ```bash
+## 4. ▶️ Como Iniciar o Servidor
+
+Para iniciar o servidor de desenvolvimento, utilize o seguinte comando:
+
+```bash
 npm start
 
-5. 🌐 Acesse a documentação Swagger:
- ```bash
+### 5. 🌐 Acesse a documentação Swagger:
+
 http://localhost:3000/docs
 
 ---
@@ -118,3 +120,6 @@ it("POST /users/register → deve registrar um usuário", async () => {
 - Swagger UI
 
 - Mocha / Chai / Mochawesome
+
+# 📌 [Acesse a Wiki da API Cronograma Capilar](https://github.com/Mjss94/ppp-turma02-hair/wiki/%F0%9F%93%8C-API-Cronograma-Capilar)
+
