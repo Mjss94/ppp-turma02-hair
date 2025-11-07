@@ -127,6 +127,8 @@ it("POST /users/register → deve registrar um usuário", async () => {
 
 ## **Documentos Adicionais** 
 
+## 📌 [Acesse o home do projeto](https://github.com/Mjss94/ppp-turma02-hair/wiki)
+
 ## 📌 [Acesse a Wiki da API Cronograma Capilar](https://github.com/Mjss94/ppp-turma02-hair/wiki/%F0%9F%93%8C-API-Cronograma-Capilar)
 
 ## 📌 [Planejamento de Teste](https://github.com/Mjss94/ppp-turma02-hair/blob/main/planejamento-de-teste.md)
