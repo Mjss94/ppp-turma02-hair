@@ -112,15 +112,23 @@ it("POST /users/register → deve registrar um usuário", async () => {
 ```
 ### 📋 **Tecnologias Utilizadas**
 
-- `Node.js`
+- Node.js
 
-- `Express`
+- Express
 
-- `JWT (Json Web Token)`
+- JWT (Json Web Token)
 
-- `Swagger UI`
+- Swagger UI
 
-- `Mocha / Chai / Mochawesome`
+- Mocha / Chai / Mochawesome
 
 ## 📌 [Acesse a Wiki da API Cronograma Capilar](https://github.com/Mjss94/ppp-turma02-hair/wiki/%F0%9F%93%8C-API-Cronograma-Capilar)
+
+## Autor
+
+**Nome:** Maria Jaciara   
+- GitHub: [Mjss94](https://github.com/Mjss94)  
+- LinkedIn: [Maria Jaciara](https://www.linkedin.com/in/maria-jaciara-477993149/)  
+- E-mail: [maryjacy2013@gmail.com](mailto:maryjacy2013@gmail.com)
+
 
