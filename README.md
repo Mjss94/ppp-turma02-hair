@@ -1,7 +1,7 @@
 
 # 💇‍♀️ API Cronograma Capilar
 
-# API Rest para acompanhamento de cronograma capilar.
+## API Rest para acompanhamento de cronograma capilar.
 
 ## ✨ Funcionalidades
 - 🧑‍🤝‍🧑 Registro de usuário e tipo de cabelo (3b, 3c, 4a, 4b, 4c, 4d)  
