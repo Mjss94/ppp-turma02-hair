@@ -1,7 +1,7 @@
 
 # 💇‍♀️ API Cronograma Capilar
 
-API Rest para acompanhamento de cronograma capilar.
+# API Rest para acompanhamento de cronograma capilar.
 
 ## ✨ Funcionalidades
 - 🧑‍🤝‍🧑 Registro de usuário e tipo de cabelo (3b, 3c, 4a, 4b, 4c, 4d)  
@@ -134,9 +134,10 @@ it("POST /users/register → deve registrar um usuário", async () => {
 
 ## Autor
 
-**Nome:** Maria Jaciara   
-- GitHub: [Mjss94](https://github.com/Mjss94)  
-- LinkedIn: [Maria Jaciara](https://www.linkedin.com/in/maria-jaciara-477993149/)  
-- E-mail: [maryjacy2013@gmail.com](mailto:maryjacy2013@gmail.com)
+**Nome:** 👩 Maria Jaciara  
+- 🐙 GitHub: [Mjss94](https://github.com/Mjss94)  
+- 💼 LinkedIn: [Maria Jaciara](https://www.linkedin.com/in/maria-jaciara-477993149/)  
+- 📧 E-mail: [maryjacy2013@gmail.com](mailto:maryjacy2013@gmail.com)
+
 
 
